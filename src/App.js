@@ -46,7 +46,6 @@ class App extends Component {
         </Navbar>
 
         <div className="container-fluid mt-5">
-<<<<<<< HEAD
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">   
@@ -57,18 +56,6 @@ class App extends Component {
                 <Button variant="primary" type="submit" onClick={this.functionData} >Send</Button> 
               </div>
             </main>
-=======
-        <div className="row">
-          <main role="main" className="col-lg-12 d-flex text-center">
-            <div className="content mr-auto ml-auto">   
-              <Form.Control id="textValue01" name="textValue01" type="text" 
-                    placeholder="Text Here !" 
-                    value={this.state.textValue01}
-                    onChange={this.onChange.bind(this)} />
-              <Button variant="primary" type="submit" onClick={this.functionData} >Send</Button> 
-            </div>
-          </main>
->>>>>>> 0a5893b6226193501cf4de5c16627cf7756fcbcc
           </div>  
         </div>
 
